@@ -5,7 +5,7 @@ A JavaScripter's best friend.
 Lubi provides several simple extension functions for JavaScript builtin types,
 which are useful especially in expression-only environments, e.g. JSX.
 
-# Setup
+### Setup
 ```
 npm i --save lubi
 ```
@@ -14,7 +14,7 @@ or
 yarn add lubi
 ```
 
-# Example
+### Example
 ```javascript
 import 'lubi'
 3..map(x => x * 2) // [0, 2, 4]
@@ -24,5 +24,5 @@ import 'lubi'
 '1.5'.toFloat() // 1.5
 ```
 
-# More functions
+### More functions
 Let's file an issue or open a pull request.
